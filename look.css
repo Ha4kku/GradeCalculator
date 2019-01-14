@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    color: r;
+
+}
+
+body{
+    background-position: center;
+background-repeat: no-repeat;
+text-align: center;
+
+}
+#add{
+    text-align: center;
+    color: red;
+}
+#calculator{
+    color: #000000;
+}
+p {
+    font-style: bold;
+    size: 45px;
+    color: black;
+}
+
+.hidden {
+    display: none;
+}
+#Classworkweight {
+    background-color: white;
+}
+#Participationweight{
+
+    background-color: white;
+}
+#Testsweight{
+    background-color: white;
+}
+#Homeworkweight{
+   background-color: white;
+}

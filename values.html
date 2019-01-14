@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <meta charset="UTF-8">
+    <title>Grades</title>
+    <script src = "Calculator.js"></script>
+    <link rel ="stylesheet" href ="look.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body background="Background/182521.jpg">
+<h1 style="color: white">Grade Calculator!</h1>
+
+
+    <br>
+    <br>
+`   <p>Homework &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Homework Weight</p>
+
+    <input title="Homework" id="Homework" type="text" size="25" value="" style = background-color:white>
+    <input  title="Weight" id="Homeworkweight" type="text" size="25" value="" style = background-color:white>
+
+    <br>
+    <br>
+    <p>Classwork &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Classwork Weight</p>
+    <input title="Classwork" id="Classwork" type="text" size="25" value="" style = background-color:white>
+    <input  title="Weight" id="Classworkweight" type="text" size="25" value="" style = background-color:white>
+    <br>
+    <br>
+    <p>Assessments &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Assessment Weight</p>
+    <input title="Assessments" id = "Tests" type="text" size="25" value="" style = background-color:white>
+    <input title="Weight" id = "Testsweight" type="text" size="25" value="" style = background-color:white>
+    <br>
+    <br>
+    <p>Participation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Participation Weight</p>
+    <input title="Participation" id="Participation" type="text" size="25" value="" style = background-color:white>
+    <input  title="Weight" id="Participationweight" type="text" size="25" value="" style = background-color:white>
+    <br>
+    <br>
+    <button class = "w3-button w3-Jumbo" id="calculator" onclick="calculate()">Calculate Grade</button>
+    <br>
+    <br>
+
+    <br>
+    <br>
+    <br>
+    <p>Grade Desired &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Finals Weight</p>
+    <input title="Finals" id="Score" type="text" size="25" value="" style = background-color:white>
+    <input  title="Weight" id="Scoreweight" type="text" size="25" value="" style = background-color:white>
+    <br>
+    <br>
+    <button class="w3-button w3-oval" onclick=" finalGrade()">Grade Needed on Finals</button>
+    <br>
+    <br>
+    <p>Grade Needed: </p>
+    <p id="grade"> </p>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
